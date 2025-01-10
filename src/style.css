@@ -1,0 +1,63 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  color: rgba(255, 255, 255, 0.87);
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: 110%;
+  background-position: center;
+  background-image: url(../public/images/Christ_Healing_The_Sick.jpg);
+  color: white;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+p {
+  font-size: 1.5em;
+  max-width: 1000px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: goldenrod;
+  color: black;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: brown;
+  color: rgb(255, 239, 149);
+}
